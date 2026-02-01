@@ -6,17 +6,16 @@ Interactive Quiz App built with HTML , CSS &amp; JAVASCRIPT . Includes timer , l
     An interactive Quiz Application built using HTML, CSS, and JavaScript that tests user knowledge with a modern UI and smart features.
     
 🚀 Features
- 1. 🎯 Multiple Question Categories (HTML, CSS, JavaScript)
- 2.  🧩 Difficulty Levels (Easy, Medium, Hard)
- 3.⏳ Countdown Timer
- 4. 🔊 Sound Effects for correct & wrong answers
- 5.🏆 Leaderboard (Top scores saved using LocalStorage)
- 6.🌗 Dark / Light Theme Toggle
- 7. 📊 Progress Bar
- 8. 🔁 Play Again Option
+ 1. 🎯 Multiple Question Categories (HTML, CSS, JavaScript).
+ 2.  🧩 Difficulty Levels (Easy, Medium, Hard).    
+ 3.⏳ Countdown Timer.
+ 4. 🔊 Sound Effects for correct & wrong answers.
+ 5.🏆 Leaderboard (Top scores saved using LocalStorage).
+ 6.🌗 Dark / Light Theme Toggle.
+ 7. 📊 Progress Bar.
+ 8. 🔁 Play Again Option.
     
 🛠 Technologies Used
-
   1.HTML
   2. CSS
   3.JavaScript
