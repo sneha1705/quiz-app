@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pro Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button id="themeToggle">🌙 Theme</button>
+
+<div class="controls">
+  <select id="category">
+    <option value="html">HTML</option>
+    <option value="css">CSS</option>
+    <option value="js" selected>JavaScript</option>
+  </select>
+
+  <select id="difficulty">
+    <option value="easy">Easy</option>
+    <option value="medium" selected>Medium</option>
+    <option value="hard">Hard</option>
+  </select>
+</div>
+
+<div class="quiz-box" id="quizBox">
+  <div class="progress-bar"><div id="progress"></div></div>
+  <div class="timer">⏳ <span id="time">15</span>s</div>
+
+  <h2 id="question"></h2>
+  <div id="options"></div>
+
+  <button id="nextBtn">Next</button>
+</div>
+
+<div class="result-box" id="resultBox" style="display:none;">
+  <h2 id="scoreText"></h2>
+  <button id="playAgain">Play Again</button>
+
+  <h3>🏆 Leaderboard</h3>
+  <ul id="leaderboard"></ul>
+  
+  <button onclick="clearLeaderboard()">Clear Leaderboard</button>
+</div>
+
+<audio id="correctSound" src="https://assets.mixkit.co/sfx/preview/mixkit-game-success-alert-2039.mp3"></audio>
+<audio id="wrongSound" src="https://assets.mixkit.co/sfx/preview/mixkit-wrong-answer-fail-notification-946.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
