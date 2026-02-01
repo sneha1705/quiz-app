@@ -16,6 +16,7 @@ Interactive Quiz App built with HTML , CSS &amp; JAVASCRIPT . Includes timer , l
  8. 🔁 Play Again Option
     
 🛠 Technologies Used
+
   1.HTML
   2. CSS
   3.JavaScript
